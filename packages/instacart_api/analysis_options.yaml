@@ -1,0 +1,9 @@
+analyzer:
+  exclude:
+    # - 'packages/**/*'
+    # - '**/*.gr.dart'
+    - '**/*.freezed.dart'
+    - '**/*.g.dart'
+    # - '**/*.config.dart'
+  errors:
+    invalid_annotation_target: ignore

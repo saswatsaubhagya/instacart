@@ -1,0 +1,34 @@
+name: instacart
+description: A new Flutter project.
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  instacart_api:
+    path: packages/instacart_api
+  cupertino_icons: ^1.0.2
+  shared_preferences: ^2.0.15
+  dio: ^4.0.6
+  provider: ^6.0.3
+  flutter_bloc: ^8.0.1
+  sqflite: ^2.0.3
+  bot_toast: ^4.0.2
+  freezed_annotation: ^2.0.3
+  flutter_rating_bar: ^4.0.1
+  carousel_slider: ^4.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+  build_runner: ^2.2.0
+  freezed: ^2.0.5
+
+flutter:
+  uses-material-design: true
